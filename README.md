@@ -28,8 +28,10 @@ Das Projekt besteht darin eine Homepage zu programmieren, die folgende Funktione
   1. Erstellt für jeden Task **zumindest einen Branch**.
   2. Arbeitet im **Local Repository** im entsprechenden Branch an dem Task.
   3. Fertige Codeteile und/oder Tasks werden von **Team-Members reviewt**.
-  4. Erstellt einen **Pull Request** um den Branch ins main/master (Remote Repository) zu mergen.
+  4. Erstellt einen **[Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)** um den Branch ins main/master (Remote Repository) zu mergen.
   5. Bearbeitet gegebenenfalls **Anfragen/Rückmeldungen** in den Code ein. Änderungen müssen erneut von einem Team Member reviewt werden!
+
+![image](https://github.com/SpaTeamAcademy/Team_B/assets/135116818/250bda5c-ec9a-4e13-b45a-460d1096d2f8)
 
 ## Commits
 
