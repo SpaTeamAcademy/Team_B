@@ -1,24 +1,40 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: normal;
+  text-align: center;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-  }
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+}
 
 a {
     text-decoration: none;
     color: black;
-  }
+}
 
-  footer {
+footer {
     position: fixed;
     bottom: 15px;
     left: 0;
