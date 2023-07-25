@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
     font-family: 'Open Sans', sans-serif;
     color: black;
     font-weight: normal;
@@ -43,60 +42,11 @@ body {
       text-align: center;
   }
 
-.UserContainerSSP {
-    background-color: #025464;
-    color: white;
-    font-size: 20px;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 15px;
-}
-
 .emoji {
     border-radius: 10px;
     padding: 10px;
-=======
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-weight: normal;
-  text-align: center;
-}
-
-h1 {
-  font-size: 50px;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 38px;
-  font-weight: bold;
-}
-
-h3 {
-  font-size: 38px;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 28px;
-  font-weight: bold;
-}
-
-p {
-  font-size: 18px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-footer {
-    position: fixed;
-    bottom: 15px;
-    left: 0;
-    width: 100%;
-    text-align: center;
+    height: 100px;
+    width: 100 px; 
 }
 
 .playbutton {
@@ -108,8 +58,3 @@ footer {
   padding: 15px;
 }
 
-.emoji {
-  border-radius: 10px;
-  padding: 10px;
->>>>>>> 7021b41fa57b93549983267ff178179800536217
-}
