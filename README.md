@@ -33,16 +33,16 @@ Das Projekt besteht darin eine Homepage zu programmieren, die folgende Funktione
 
 ![image](https://github.com/SpaTeamAcademy/Team_B/assets/135116818/250bda5c-ec9a-4e13-b45a-460d1096d2f8)
 
-## Commits
+## Commits & Pull Request
 
-Commits müssen dem folgenden Muster entsprechen:
+Commits & Pull Requests müssen dem folgenden Muster entsprechen:
 
-**Commit Message:** [Asana ID] Letzte Änderung | Initialen der Person(en) die den Code reviewt haben _(bei Pull Requests)_
+*Message:** [Asana ID] Letzte Änderung | Initialen der Person(en) die den Code reviewt haben _(bei Pull Requests)_
 
-**Commit Description:** Titel & Link zum Asana Task
+**Description:** Titel & Link zum Asana Task
 
 ### Beispiel: 
 
-**Commit Message:** ```[002] function win_loss updated; code cleaning | A.H., C.R.``` 
+**Message:** ```[002] function win_loss updated; code cleaning | A.H., C.R.``` 
 
-**Commit Description:** ```002 Schere-Stein-Papier https://app.asana.com/0/1202853460xxxxx/```
+**Description:** ```002 Schere-Stein-Papier https://app.asana.com/0/1202853460xxxxx/```
