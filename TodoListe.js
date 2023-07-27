@@ -3,7 +3,7 @@ function addItem() {
     var inputValue = document.getElementById("myInput").value;
     var t = document.createTextNode(inputValue);
     li.appendChild(t);
-    if (inputValue === '') {
+    if (inputValue === "") {
       alert("Bitte gib etwas ein :)");
     } else {
       document.getElementById("myUL").appendChild(li);
