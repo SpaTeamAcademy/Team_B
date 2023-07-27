@@ -9,6 +9,10 @@ function rpsRandom(){
 let choice = rpsRandom(rps);
 console.log(choice);
 
+// Scores
+let playerScore = 0;
+let compScore = 0;
+
 function Winner(PlayerChoice, ComputerChoice){
     if(PlayerChoice === ComputerChoice) {
         return " Unentschieden!";
@@ -17,10 +21,18 @@ function Winner(PlayerChoice, ComputerChoice){
         (PlayerChoice === "Papier" && ComputerChoice === "Stein") ||
         (PlayerChoice === "Stein" && ComputerChoice === "Schere")
     ) {
+        playerScore++; // Score wird je nach Winner erhöht
         return " Du hast gewonnen!";
     } else {
+        compScore++;
         return " Du hast verloren!";
     }
+}
+
+// Score wird aktualisiert
+function updateScore(){
+    let showScore = "Spieler " + playerScore + " : " + compScore + " Computer";
+    document.getElementById("Score").innerHTML = showScore;
 }
 
 function Game(PlayerChoice){
@@ -29,6 +41,7 @@ function Game(PlayerChoice){
     document.getElementById("ComputerChoice").textContent = 'Computer hat ' + ComputerChoice +  ' gewählt.';
     document.getElementById("PlayerChoice").textContent = 'Du hast ' + PlayerChoice + ' gewählt.';
     document.getElementById("result").textContent = result;
+    updateScore();
 }
 
 document.getElementById("Schere").addEventListener("click", function () {
