@@ -6,6 +6,10 @@ body {
     background-color: #99bac1;      /*provisional background-color*/
 }
 
+#AboutBody{
+    background-color: #025464;
+}
+
 header {
     background-color: #025464;
     color: #fff;
