@@ -3,6 +3,7 @@ body {
     color: black;
     font-weight: normal;
     text-align: center;
+    background-color: #99bac1;      /*provisional background-color*/
 }
 
 header {
@@ -95,4 +96,81 @@ footer {
     width: 100 px; 
 }
 
+#github {
+    color: blue;
+}
 
+#text {
+    color: blue; 
+}
+
+#projekt {
+    padding-left: 1em;
+}
+
+#gruppe {
+    padding-left: 1em;
+}
+
+#bild {
+    width: 160px;
+    height: 200px;
+}
+
+/* Design for ToDo-Liste*/
+
+.boxcontainer {
+    box-sizing: border-box;
+    background-color: #025464;
+    width: 25%;
+    height: 50%;
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: 2px;
+    margin: auto; /*centers box*/
+    margin-top: 40px;
+}
+
+#add {             /*nice to have: click animation*/
+    font-size: 18px;
+    background-color: #E8AA42;
+    border-radius: 15px;
+    padding: 7px;
+    margin: 5px;
+    border-style: solid;
+    border-color:#025464 ;
+}
+
+#add:hover {
+    background-color: #ecbb67;
+}
+
+#myInput {      /*needs to be optimized to be dynamic*/
+    font-size: 18px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #025464;
+    padding: 7px;
+    margin: 3px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {            /*bug: long words slip out of box*/
+    font-size: 18px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #025464;
+    padding: 7px;
+    background-color: #6798a2;
+    color: white;
+    margin-right: 32px; /*centers li*/
+}
+
+#todoHeading {
+    color: white;
+}
