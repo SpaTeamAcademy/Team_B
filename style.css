@@ -6,6 +6,10 @@ body {
     background-color: #99bac1;      /*provisional background-color*/
 }
 
+#AboutBody{
+    background-color: #025464;
+}
+
 header {
     background-color: #025464;
     color: #fff;
@@ -96,8 +100,24 @@ footer {
     width: 100 px; 
 }
 
+#AboutUs{
+    text-align: center;
+}
+
+#projektheader{
+    text-align: center;
+}
+
+#gruppenheader{
+    text-align: center;
+}
+
+#mitglieder{
+    text-align: center;
+}
+
 #github {
-    color: blue;
+    padding-left: 40%;
 }
 
 #text {
@@ -112,9 +132,39 @@ footer {
     padding-left: 1em;
 }
 
-#bild {
+.AboutBild{
     width: 160px;
     height: 200px;
+    float: right; margin-left: 1em;
+    border-radius: 15px;
+}
+
+#GitIcon{
+    width: 150px;
+}
+
+.boxcontainerAbout{
+    text-align: justify;
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto;
+    border: 5px black solid;
+    border-radius: 15px;
+    padding: 5px;
+    padding-right: 20px;
+    background-color: white;
+}
+
+hr{
+    width: 90%;
+}
+
+#selbstpräsentation{
+    clear: right; margin-left: 1em;
+}
+
+.AboutText{
+    clear: left; margin-left: 1em;
 }
 
 /* Design for ToDo-Liste*/
