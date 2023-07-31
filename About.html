@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-    <html lang="de">
+    <html>
         <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-            <link rel="stylesheet" href="style.css">
             <title>Über uns</title>
         </head>
+        <div class="boxcontainer">
         <body>
-            &#160
             <h1>Über uns</h1>
+            <hr/>
             &#160
             <h2 id="projektheader">Das Projekt</h2>
+            <div class="container">
             <p id="projekt" >Im Rahmen dieses Projekts wurde eine interaktive 
                 Website erstellt, auf welcher man auf mehrere Apps zugreifen und diese für den privaten 
                 Gebrauch nutzen kann. Zu diesen unterhaltsamen sowie praktischen Apps zählen 
@@ -22,6 +22,7 @@
                  “Passwort-Generator”(eine App zum zufälligen Generieren eines sicheren Passwortes).
                  Des Weiteren erfährt man Näheres zu der Gruppe “CoDivers” und ihren Mitgliedern.
             </p>
+        </div>
             &#160
             <h2 id="gruppenheader">CoDivers</h2>
             <p id="gruppe" >Im Jahre 2023 wurde die Gruppe “CoDivers” durch die
@@ -38,96 +39,93 @@
             &#160
             &#160
             &#160
+            <hr>
             <h2 id="mitglieder">CoDivers Mitglieder</h2>
+            <hr/>
             &#160
             &#160
             &#160
-            <details>
-            <summary id = "katrin" style="font-size: 38px; font-weight: bold; text-indent:30px">Katrin</summary>
-            <p id = "katrintext" style = "padding-left: 3.5em">
-            Ich heiße Katrin und bin 29 Jahre alt. Im Mai 2023 habe ich begonnen mit HTML, CSS und 
-            JavaScript zu programmieren. Zu meinen Stärken zählen meine 
-            Begeisterungsfähigkeit, meine ruhige Art und meine Leadership-Skills. In meiner Freizeit 
-            lese ich gerne, beschäftige mich mit Biologie und verbringe Zeit in der Natur.
-            <br>
-            <br>
-            <img id="bild" src="https://cdn.discordapp.com/attachments/1118461228281507950/1133666197318160415/20230726_094254.jpg" alt="Katrin">
-            <br>
-            <br>
-            <a id ="github" href="https://github.com/katrinhi" target="_blank">Verlinkung zum GitHub-Account von Katrin</a>
-            </p>
-            </details>
+            &#160
+            <div id  = katrin>
+            <a id = "selbstpräsentation" style="font-size: 38px; font-weight: bold; text-indent: 30px;">Katrin</a>
+            <img id="bildkatrin" src="https://cdn.discordapp.com/attachments/1118461228281507950/1133666197318160415/20230726_094254.jpg" alt="Katrin">
+                <p id = "katrintext">
+                Ich heiße Katrin und bin 29 Jahre alt. Im Mai 2023 habe ich begonnen mit HTML, CSS und 
+                JavaScript zu programmieren. Zu meinen Stärken zählen meine 
+                Begeisterungsfähigkeit, meine ruhige Art und meine Leadership-Skills. In meiner Freizeit 
+                lese ich gerne, beschäftige mich mit Biologie und verbringe Zeit in der Natur.
+                <br>
+                <a id ="github" href="https://github.com/katrinhi" target="_blank"><img id="GitIcon" src="https://allvectorlogo.com/img/2021/12/github-logo-vector.png"></a>
+                </p>
+            </div>
             &#160
             &#160
             &#160
-            <details>
-            <summary id = "laura" style="font-size: 38px; font-weight: bold; text-indent:30px">Laura</summary>
-            <p id = "lauratext" style="padding-left: 3.5em" > Ich bin die Laura und 21 Jahre alt. Zu meinen Stärken zählen mein soziales Entgegenkommen, 
-            meine Offenheit sowie meine Office-Kenntnisse. Seit Mitte Mai programmiere ich aktiv in der Sprache JavaScript, welche auch zum Kreieren dieser WebSite benutzt wurde.
-            Programmieren bereitet mir viel Freude und ich hoffe mich weiterhin in diesem Bereich weiterentwickeln zu können.
-            <br>
-            <br>
-            <img id="bild" src="https://cdn.discordapp.com/attachments/1117748281641009164/1133666164686471248/20230726_094229.jpg" alt="Laura">
-            <br>
-            <br>
-            <a id ="github" href="https://github.com/CutiePie72" target="_blank"><font color=blue>Verlinkung zum GitHub-Account von Laura</font></a>
-            </p>
-            </details>
+            &#160
+            <div class="selbstbeschreibung">
+                <hr/>
+                <a id = "selbstpräsentation" style="font-size: 38px; font-weight: bold; text-indent:30px">Laura</a>
+                <img id="bildlaura" src="https://cdn.discordapp.com/attachments/1117748281641009164/1133666164686471248/20230726_094229.jpg" alt="Laura">
+                <p id = "lauratext"> Ich bin die Laura und 21 Jahre alt. Zu meinen Stärken zählen mein soziales Entgegenkommen, 
+                meine Offenheit sowie meine Office-Kenntnisse. Seit Mitte Mai programmiere ich aktiv in der Sprache JavaScript, welche auch zum Kreieren dieser WebSite benutzt wurde.
+                Programmieren bereitet mir viel Freude und ich hoffe mich weiterhin in diesem Bereich weiterentwickeln zu können.
+                <br>
+                <a id ="github" href="https://github.com/CutiePie72" target="_blank"><img id="GitIcon" src="https://allvectorlogo.com/img/2021/12/github-logo-vector.png"></a>
+                </p>
+            </div>
             &#160
             &#160
             &#160
-            <details>
-            <summary id = "lea" style="font-size: 38px; font-weight: bold; text-indent:30px">Lea</summary>
-            <p id = "leatext" style ="padding-left: 3.5em" > 
-            Mein Name ist Lea und ich bin 28 Jahre alt. Seit Februar 2023 programmiere ich mit HTML, 
-            CSS und JavaScript. Kommunikation und Kreativität zählen zu meinen Stärken. 
-            Wenn ich nicht vor dem Computer sitze, stehe ich gerne in der Küche, gehe in der Natur 
-            spazieren oder übe Yoga.
-            <br>
-            <br>
-            <img id="bild" src="https://cdn.discordapp.com/attachments/1130456528126758933/1133666227135455244/20230726_094354.jpg" alt="Lea">
-            <br>
-            <br>
-            <a id ="github" href="https://github.com/LeaStiller" target="_blank">Verlinkung zum GitHub-Account von Lea</a>
-            </p>
-            </details>
+            &#160
+            <div class="selbstbeschreibung">
+                <hr/>
+                <a id = "selbstpräsentation" style="font-size: 38px; font-weight: bold; text-indent:30px">Lea</a>
+                <img id="bildlea" src="https://cdn.discordapp.com/attachments/1130456528126758933/1133666227135455244/20230726_094354.jpg" alt="Lea">
+                <p id = "leatext"> 
+                Mein Name ist Lea und ich bin 28 Jahre alt. Seit Februar 2023 programmiere ich mit HTML, 
+                CSS und JavaScript. Kommunikation und Kreativität zählen zu meinen Stärken. 
+                Wenn ich nicht vor dem Computer sitze, stehe ich gerne in der Küche, gehe in der Natur 
+                spazieren oder übe Yoga.
+                <br>
+                <a id ="github" href="https://github.com/LeaStiller" target="_blank"><img id="GitIcon" src="https://allvectorlogo.com/img/2021/12/github-logo-vector.png"></a>
+                </p>
+            </div>
             &#160
             &#160
             &#160
-            <details>
-            <summary id = "phi" style="font-size: 38px; font-weight: bold; text-indent:30px">Phi</summary>
-            <p id = "phitext" style ="padding-left: 3.5em" >
-            Hallo, ich bin Gabriel und die meisten kennen mich als Phi. Ich bin 23 Jahre alt und code 
-            seit fast 9 Jahren. Zu meinen Stärken zählen meine Sprachkenntnisse, meine 
-            Anpassungsfähigkeit und meine Führungskraft. Ich lerne seit Mai aktiv JavaScript und ich habe
-            meine Kenntnisse mit dem meiner Freunde im Team gestärkt und wir haben so gemeinsam diese 
-            Webpage erstellt.
-            <br>
-            <br>
-            <img id="bild" src="https://cdn.discordapp.com/attachments/1117748281641009164/1133668949326831768/20230726_095516.jpg" alt="Phi">
-            <br>
-            <br>
-            <a id ="github" href="https://github.com/HornGabriel" target="_blank">Verlinkung zum GitHub-Account von Phi</a>
-            </p>
-            </details>
+            &#160
+            <div class="selbstbeschreibung">
+                <hr/>
+                <a id = "selbstpräsentation" style="font-size: 38px; font-weight: bold; text-indent:30px">Phi</a>
+                <img id="bildphi" src="https://cdn.discordapp.com/attachments/1117748281641009164/1133668949326831768/20230726_095516.jpg" alt="Phi">
+                <p id = "phitext">
+                Hallo, ich bin Gabriel und die meisten kennen mich als Phi. Ich bin 23 Jahre alt und code 
+                seit fast 9 Jahren. Zu meinen Stärken zählen meine Sprachkenntnisse, meine 
+                Anpassungsfähigkeit und meine Führungskraft. Ich lerne seit Mai aktiv JavaScript und ich habe
+                meine Kenntnisse mit denen meiner Freunde im Team gestärkt und wir haben so gemeinsam diese 
+                Webpage erstellt.
+                <br>
+                <a id ="github" href="https://github.com/HornGabriel" target="_blank"><img id="GitIcon" src="https://allvectorlogo.com/img/2021/12/github-logo-vector.png"></a>
+                </p>
+            </div>
             &#160
             &#160
             &#160
-            <details>
-            <summary id = "thomas" style="font-size: 38px; font-weight: bold; text-indent:30px">Thomas</summary>
-            <p id = "thomastext" style ="padding-left: 3.5em" >
-            Ich heiße Thomas und bin 18 Jahre alt. Seit Mai 2023 lerne ich mit JavaScript, HTML und CSS
-            zu coden. Zwischen 2020 und 2021 sammelte ich erste Erfahrungen mit C++. Meine größte Stärke
-            ist, dass ich sehr gewissenhaft arbeite und mich immer voll auf meine Aufgabe konzentriere.
-            In meiner Freizeit lese ich gerne, spiele Videospiele oder informiere mich über Geschichte.
-            <br>
-            <br>
-            <img id="bild" src="https://cdn.discordapp.com/attachments/1130440196471652472/1133666255350546433/20230726_094327.jpg" alt="Thomas">
-            <br>
-            <br>
-            <a id ="github" href="https://github.com/commonTL" target="_blank">Verlinkung zum GitHub-Account von Thomas</a>
-            </p>
-            </details>
-
-        </body>
-    </html>
+            &#160
+            <div class="selbstbeschreibung">
+                <hr/>
+                <a id = "selbstpräsentation" style="font-size: 38px; font-weight: bold; text-indent:30px">Thomas</a>
+                <img id="bildthomas" src="https://cdn.discordapp.com/attachments/1130440196471652472/1133666255350546433/20230726_094327.jpg" alt="Thomas">
+                <p id = "thomastext">
+                Ich heiße Thomas und bin 18 Jahre alt. Seit Mai 2023 lerne ich mit JavaScript, HTML und CSS
+                zu coden. Zwischen 2020 und 2021 sammelte ich erste Erfahrungen mit C++. Meine größte Stärke
+                ist, dass ich sehr gewissenhaft arbeite und mich immer voll auf meine Aufgabe konzentriere.
+                In meiner Freizeit lese ich gerne, spiele Videospiele oder informiere mich über Geschichte.
+                <br>
+                <br>
+                <a id ="github" href="https://github.com/commonTL" target="_blank"><img id="GitIcon" src="https://allvectorlogo.com/img/2021/12/github-logo-vector.png"></a>
+                </p>
+                <br>
+            </div>
+            </body>
+            </html>
