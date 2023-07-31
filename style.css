@@ -96,8 +96,20 @@ footer {
     width: 100 px; 
 }
 
+#projektheader{
+    text-align: center;
+}
+
+#gruppenheader{
+    text-align: center;
+}
+
+#mitglieder{
+    text-align: center;
+}
+
 #github {
-    color: blue;
+    padding-left: 40%;
 }
 
 #text {
@@ -112,9 +124,83 @@ footer {
     padding-left: 1em;
 }
 
-#bild {
+#bildkatrin{
     width: 160px;
     height: 200px;
+    float: right; margin-left: 1em;
+    border-radius: 15px;
+}
+
+#bildlaura{
+    width: 160px;
+    height: 200px;
+    float: right; margin-left: 1em;
+    border-radius: 15px;
+}
+
+#bildlea{
+    width: 160px;
+    height: 200px;
+    float: right; margin-left: 1em; 
+    border-radius: 15px;
+}
+
+#bildphi{
+    width: 160px;
+    height: 200px;
+    float: right; margin-left: 1em;
+    border-radius: 15px;
+}
+
+#bildthomas{
+    width: 160px;
+    height: 200px;
+    float: right; margin-left: 1em;
+    border-radius: 15px;
+} 
+
+#GitIcon{
+    width: 150px;
+}
+
+.boxcontainerAbout{
+    text-align: justify;
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto;
+    border: 5px black solid;
+    border-radius: 15px;
+    padding: 5px;
+    padding-right: 20px;
+    background-color: white;
+}
+
+hr{
+    width: 90%;
+}
+
+#selbstpräsentation{
+    clear: right; margin-left: 1em;
+}
+
+#katrintext{
+    clear: left; margin-left: 1em;
+}
+
+#lauratext{
+    clear: left; margin-left: 1em;
+}
+
+#leatext{
+    clear: left; margin-left: 1em;
+}
+
+#phitext{
+    clear: left; margin-left: 1em;
+}
+
+#thomastext{
+    clear: left; margin-left: 1em;
 }
 
 /* Design for ToDo-Liste*/
