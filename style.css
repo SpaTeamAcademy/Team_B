@@ -224,3 +224,17 @@ li {            /*bug: long words slip out of box*/
 #todoHeading {
     color: white;
 }
+<<<<<<< HEAD
+
+
+/* Design für PWGenerator*/
+
+#Passwort-heading {
+    color: white;
+}
+
+#generatedpassword {
+    color: white;
+}
+=======
+>>>>>>> 056ad2b347877a3f5a49b67eef14ffb22eb10b7c
