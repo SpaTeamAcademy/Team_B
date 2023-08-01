@@ -3,6 +3,48 @@ body {
     color: black;
     font-weight: normal;
     text-align: center;
+    background-color: #99bac1;      /*provisional background-color*/
+}
+
+#AboutBody{
+    background-color: #025464;
+}
+
+header {
+    background-color: #025464;
+    color: #fff;
+    padding: 10px;
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 0 5px;
+}
+
+nav li a {
+    padding: 5px 7.5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #347683;
+    color: #fff;
+    border-radius: 5px;
+}
+
+nav li a:active {
+    background-color: #01323C;
+    color: #fff;
 }
   
 h1 {
@@ -58,4 +100,141 @@ footer {
     width: 100 px; 
 }
 
+#AboutUs{
+    text-align: center;
+}
 
+#projektheader{
+    text-align: center;
+}
+
+#gruppenheader{
+    text-align: center;
+}
+
+#mitglieder{
+    text-align: center;
+}
+
+#github {
+    padding-left: 40%;
+}
+
+#text {
+    color: blue; 
+}
+
+#projekt {
+    padding-left: 1em;
+}
+
+#gruppe {
+    padding-left: 1em;
+}
+
+.AboutBild{
+    width: 160px;
+    height: 200px;
+    float: right; margin-left: 1em;
+    border-radius: 15px;
+}
+
+#GitIcon{
+    width: 150px;
+}
+
+.boxcontainerAbout{
+    text-align: justify;
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto;
+    border: 5px black solid;
+    border-radius: 15px;
+    padding: 5px;
+    padding-right: 20px;
+    background-color: white;
+}
+
+hr{
+    width: 90%;
+}
+
+#selbstpräsentation{
+    clear: right; margin-left: 1em;
+}
+
+.AboutText{
+    clear: left; margin-left: 1em;
+}
+
+/* Design for ToDo-Liste*/
+
+.boxcontainer {
+    box-sizing: border-box;
+    background-color: #025464;
+    width: 25%;
+    height: 50%;
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: 2px;
+    margin: auto; /*centers box*/
+    margin-top: 40px;
+}
+
+#add {             /*nice to have: click animation*/
+    font-size: 18px;
+    background-color: #E8AA42;
+    border-radius: 15px;
+    padding: 7px;
+    margin: 5px;
+    border-style: solid;
+    border-color:#025464 ;
+}
+
+#add:hover {
+    background-color: #ecbb67;
+}
+
+#myInput {      /*needs to be optimized to be dynamic*/
+    font-size: 18px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #025464;
+    padding: 7px;
+    margin: 3px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {            /*bug: long words slip out of box*/
+    font-size: 18px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #025464;
+    padding: 7px;
+    background-color: #6798a2;
+    color: white;
+    margin-right: 32px; /*centers li*/
+}
+
+#todoHeading {
+    color: white;
+}
+<<<<<<< HEAD
+
+
+/* Design für PWGenerator*/
+
+#Passwort-heading {
+    color: white;
+}
+
+#generatedpassword {
+    color: white;
+}
+=======
+>>>>>>> 056ad2b347877a3f5a49b67eef14ffb22eb10b7c

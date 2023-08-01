@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
     <head>
-        <link rel="stylesheet" href="style.css">
-        <script src="app.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
         <title>Schere Stein Papier</title>
     </head>
     <body>
         <h1>Schere Stein Papier</h1>
-        <button type="button" class="playbutton" id="schere" onclick = "display(schere)"><img class="emoji" src="https://em-content.zobj.net/thumbs/240/apple/354/victory-hand_270c-fe0f.png" alt="Victory-Emoji"><br>Schere</button>
-        <button type="button" class="playbutton" id="stein" onclick = "display(stein)"><img class="emoji" src="https://em-content.zobj.net/thumbs/240/apple/354/oncoming-fist_1f44a.png" alt="Faust-Emoji"><br>Stein</button>
-        <button type="button" class="playbutton" id="papier" onclick = "display(papier)"><img class="emoji" src="https://em-content.zobj.net/thumbs/240/apple/354/raised-hand_270b.png" alt="offene Hand-Emoji"><br>Papier</button>
-        <p id="compChoice">Fülltext: Das hat der Computer gewählt</p>
-        <p id="result">Fülltext: Ergebnis</p>
-    </body>
+        <!--Scoreboard--><p id="Score">Spieler 0 : 0 Computer</p>
+        <button id="Schere" class="playbutton"><img class="emoji" src="https://em-content.zobj.net/thumbs/240/apple/354/victory-hand_270c-fe0f.png" alt="Victory-Emoji"><br>Schere</button>
+        <button id="Stein" class="playbutton"><img class="emoji" src="https://em-content.zobj.net/thumbs/240/apple/354/oncoming-fist_1f44a.png" alt="Faust-Emoji"><br>Stein</button>
+        <button id="Papier" class="playbutton"><img class="emoji" src="https://em-content.zobj.net/thumbs/240/apple/354/raised-hand_270b.png" alt="offene Hand-Emoji"><br>Papier</button>
+        <p id="PlayerChoice"></p>
+        <p id="ComputerChoice"></p>
+        <p id="result"></p>
+        <script src="app.js"></script>
+        </body>
 </html>
