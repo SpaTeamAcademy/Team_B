@@ -12,8 +12,6 @@ header {
     padding: 10px;
 }
 
-
-
 nav ul {
     list-style: none;
     margin: 0;
@@ -44,6 +42,7 @@ nav li a:active {
 }
   
 h1 {
+    cursor: default;
     font-size: 50px;
     font-weight: bold;
 }
@@ -112,6 +111,10 @@ footer {
     padding-left: 1em;
 }
 
+#gruppe {
+    padding-left: 1em;
+}
+
 #bild {
     width: 160px;
     height: 200px;
@@ -138,14 +141,15 @@ footer {
     padding: 7px;
     margin: 5px;
     border-style: solid;
-    border-color:#025464 ;
+    border-color:#025464;
+    cursor: pointer; 
 }
 
 #add:hover {
     background-color: #ecbb67;
 }
 
-#myInput {      /*needs to be optimized to be dynamic*/
+#myInput {
     width: 80%;
     font-size: 18px;
     border-radius: 5px;
@@ -161,6 +165,8 @@ ul {
 }
 
 li {            /*bug: long words slip out of box*/
+    display: flex;
+    justify-content: space-between;
     font-size: 18px;
     border-radius: 5px;
     border-style: solid;
@@ -175,3 +181,10 @@ li {            /*bug: long words slip out of box*/
 #todoHeading {
     color: white;
 }
+
+.delete-btn {
+    cursor: pointer; 
+    margin-left: 10px; 
+    color: white;
+  }
+  
