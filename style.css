@@ -84,6 +84,7 @@ footer {
 }
 
 .playbutton {
+    cursor: pointer;
     background-color: #025464;
     color: white;
     font-size: 20px;
