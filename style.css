@@ -72,11 +72,11 @@ a {
 }
   
 footer {
-      position: fixed;
-      bottom: 15px;
+      bottom: 0;
       left: 0;
       width: 100%;
       text-align: center;
+      margin-top: auto;
 }
 
 .playbutton {
