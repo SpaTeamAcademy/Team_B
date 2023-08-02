@@ -3,11 +3,7 @@ body {
     color: black;
     font-weight: normal;
     text-align: center;
-    background-color: #99bac1;      /*provisional background-color*/
-}
-
-#AboutBody {
-    background-color: #025464;
+    background-color: #99bac1;
 }
 
 header {
@@ -100,6 +96,21 @@ footer {
     width: 100 px; 
 }
 
+.sspDisplay {
+    width: 200px;
+    border: 5px solid #025464;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color:#E8AA42;
+    color: white;
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #AboutUs {
     text-align: center;
 }
@@ -149,7 +160,7 @@ footer {
     box-sizing: border-box;
     width: 50%;
     margin: auto;
-    border: 5px black solid;
+    border: 2px black solid;
     border-radius: 15px;
     padding: 5px;
     padding-right: 20px;
@@ -184,7 +195,7 @@ hr {
     margin-top: 40px;
 }
 
-#add {             /*nice to have: click animation*/
+#add {
     font-size: 18px;
     background-color: #E8AA42;
     border-radius: 15px;
