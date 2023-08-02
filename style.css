@@ -6,7 +6,7 @@ body {
     background-color: #99bac1;      /*provisional background-color*/
 }
 
-#AboutBody{
+#AboutBody {
     background-color: #025464;
 }
 
@@ -15,8 +15,6 @@ header {
     color: #fff;
     padding: 10px;
 }
-
-
 
 nav ul {
     list-style: none;
@@ -48,6 +46,7 @@ nav li a:active {
 }
   
 h1 {
+    cursor: default;
     font-size: 50px;
     font-weight: bold;
 }
@@ -100,7 +99,7 @@ footer {
     width: 100 px; 
 }
 
-#AboutUs{
+#AboutUs {
     text-align: center;
 }
 
@@ -132,14 +131,15 @@ footer {
     padding-left: 1em;
 }
 
-.AboutBild{
+.AboutBild {
     width: 160px;
     height: 200px;
-    float: right; margin-left: 1em;
+    float: right; 
+    margin-left: 1em;
     border-radius: 15px;
 }
 
-#GitIcon{
+#GitIcon {
     width: 150px;
 }
 
@@ -155,16 +155,18 @@ footer {
     background-color: white;
 }
 
-hr{
+hr {
     width: 90%;
 }
 
-#selbstpräsentation{
-    clear: right; margin-left: 1em;
+#selbstpräsentation {
+    clear: right; 
+    margin-left: 1em;
 }
 
-.AboutText{
-    clear: left; margin-left: 1em;
+.AboutText {
+    clear: left; 
+    margin-left: 1em;
 }
 
 /* Design for ToDo-Liste*/
@@ -172,7 +174,7 @@ hr{
 .boxcontainer {
     box-sizing: border-box;
     background-color: #025464;
-    width: 25%;
+    width:30%;
     height: 50%;
     border: 1px black solid;
     border-radius: 15px;
@@ -188,14 +190,16 @@ hr{
     padding: 7px;
     margin: 5px;
     border-style: solid;
-    border-color:#025464 ;
+    border-color:#025464;
+    cursor: pointer; 
 }
 
 #add:hover {
     background-color: #ecbb67;
 }
 
-#myInput {      /*needs to be optimized to be dynamic*/
+#myInput {
+    width: 80%;
     font-size: 18px;
     border-radius: 5px;
     border-style: solid;
@@ -210,6 +214,8 @@ ul {
 }
 
 li {            /*bug: long words slip out of box*/
+    display: flex;
+    justify-content: space-between;
     font-size: 18px;
     border-radius: 5px;
     border-style: solid;
@@ -224,8 +230,12 @@ li {            /*bug: long words slip out of box*/
 #todoHeading {
     color: white;
 }
-<<<<<<< HEAD
 
+.delete-btn {
+    cursor: pointer; 
+    margin-left: 10px; 
+    color: white;
+  }
 
 /* Design für PWGenerator*/
 
@@ -236,5 +246,3 @@ li {            /*bug: long words slip out of box*/
 #generatedpassword {
     color: white;
 }
-=======
->>>>>>> 056ad2b347877a3f5a49b67eef14ffb22eb10b7c
