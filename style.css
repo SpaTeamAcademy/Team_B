@@ -263,3 +263,95 @@ label {
     margin:2.5px;
     vertical-align: middle;
 } 
+
+/*Design für Startseite*/
+
+.rsp{
+    vertical-align: auto;
+    box-sizing: border-box;
+    width: 25%;
+    height: 280px;
+    margin-left: 5.5em;
+    margin-top: 7.5em;
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 5px;
+    padding-right: 20px;
+    background-color: white;
+    box-shadow:-10px 10px 10px #01323C;
+    float: left;
+    cursor: pointer;
+}
+
+.rsp:hover{
+    background-color: #347683;
+}
+
+.rsp:hover a{
+    color: white;
+}
+
+.todo{
+    vertical-align: auto;
+    box-sizing: border-box;
+    width: 25%;
+    height: 280px;
+    margin-left: 4em;
+    margin-right: 5em;
+    margin-top: 7.5em;
+    border: 2px black solid;
+    border-radius: 15px;
+    box-shadow:-10px 10px 10px #01323C;
+    padding: 5px;
+    padding-right: 20px;
+    background-color: white;
+    float: left;
+    cursor: pointer;
+}
+
+.todo:hover{
+    background-color: #347683;
+}
+
+.todo:hover a{
+    color:white;
+}
+
+#img{
+    width: 180px;
+    height: 150px;
+    vertical-align: auto;
+    clip-path: circle();
+    margin-left: 0.5em;
+}
+
+.pw{
+    vertical-align: auto;
+    box-sizing: border-box;
+    width: 25%;
+    height: 280px;
+    margin-right: 3.5em;
+    margin-left: -1em;
+    margin-top: 7.5em;
+    border: 2px black solid;
+    border-radius: 15px;
+    box-shadow:-10px 10px 10px #01323C;
+    padding: 5px;
+    padding-right: 20px;
+    background-color: white;
+    float: left;
+    cursor: pointer;
+}
+
+.pw:hover{
+    background-color: #347683;
+    color: white;
+}
+
+.pw:hover a{
+    color: white;
+}
+
+.app{
+    font-size: 1.8em;
+}
