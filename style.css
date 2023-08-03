@@ -250,3 +250,16 @@ li {            /*bug: long words slip out of box*/
 #generatedpassword {
     color: white;
 }
+
+label {
+    display: inline-block;
+    margin: 10px;
+    color: white;
+}
+
+.checkbox {
+    width: 13px;
+    height: 20px;
+    margin:2.5px;
+    vertical-align: middle;
+} 
