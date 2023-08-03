@@ -44,7 +44,11 @@ nav li a:active {
     background-color: #01323C;
     color: #fff;
 }
-  
+
+.navbar {
+    background-color: #025464;
+}
+
 h1 {
     cursor: default;
     font-size: 50px;

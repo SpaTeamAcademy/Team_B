@@ -10,10 +10,21 @@
         <title>Passwort Generator</title>
     </head>
     <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="navbar"><a href="startseite.html">Home</a></li>
+                    <li class="navbar"><a href="SchereSteinPapier.html">Schere Stein Papier</a></li>
+                    <li class="navbar"><a href="TodoListe.html">To-do-Liste</a></li>
+                    <li class="navbar"><a href="PasswortGenerator.html">Passwort Generator</a></li>
+                    <li class="navbar"><a href="About.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
         <div class="boxcontainer">
             <h1 id="Passwort-heading">Passwort Generator</h1>
             <p id="generatedpassword"></p>
-            <button onclick="generatePasswort()">Erstelle ein Passwort</button>
+            <button onclick="generatePasswort()" id="add">Erstelle ein Passwort</button>
             <script src="passwort.js"></script>
         </div>
     </body>
