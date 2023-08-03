@@ -51,7 +51,11 @@ nav li a:active {
     font-variant: small-caps;
     margin-bottom: 10px;
 }
-  
+
+.navbar {
+    background-color: #025464;
+}
+
 h1 {
     cursor: default;
     font-size: 50px;
