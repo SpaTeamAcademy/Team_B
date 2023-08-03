@@ -79,6 +79,11 @@ footer {
       margin-top: auto;
 }
 
+.footerBottom {
+    position: fixed;
+    margin-bottom: 1em;
+}
+
 .playbutton {
     cursor: pointer;
     background-color: #025464;
