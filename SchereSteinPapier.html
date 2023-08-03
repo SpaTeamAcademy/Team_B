@@ -16,20 +16,25 @@
                     <li id="teamName">CoDivers</li>
                     <li class="navbar"><a href="startseite.html">Home</a></li>
                     <li class="navbar"><a href="SchereSteinPapier.html">Schere Stein Papier</a></li>
-                    <li class="navbar"><a href="TodoListe.html">To-do-Liste</a></li>
+                    <li class="navbar"><a href="TodoListe.html">ToDo-Liste</a></li>
                     <li class="navbar"><a href="PasswortGenerator.html">Passwort Generator</a></li>
                     <li class="navbar"><a href="About.html">About</a></li>
                 </ul>
             </nav>
         </header>
+        <main>
         <h1>Schere Stein Papier</h1>
-        <!--Scoreboard--><p id="Score">Spieler 0 : 0 Computer</p>
+        <div class="sspDisplay"><p id="Score">Spieler 0 : 0 Computer</p></div>
         <button id="Schere" class="playbutton"><img class="emoji" src="https://em-content.zobj.net/thumbs/240/apple/354/victory-hand_270c-fe0f.png" alt="Victory-Emoji"><br>Schere</button>
         <button id="Stein" class="playbutton"><img class="emoji" src="https://em-content.zobj.net/thumbs/240/apple/354/oncoming-fist_1f44a.png" alt="Faust-Emoji"><br>Stein</button>
         <button id="Papier" class="playbutton"><img class="emoji" src="https://em-content.zobj.net/thumbs/240/apple/354/raised-hand_270b.png" alt="offene Hand-Emoji"><br>Papier</button>
+        <div class="sspDisplay"><p id="result">Wer hat gewonnen?</p></div>
         <p id="PlayerChoice"></p>
         <p id="ComputerChoice"></p>
-        <p id="result"></p>
         <script src="app.js"></script>
-        </body>
+    </main>
+    </body>
+    <footer>
+        <small>&copy; Copyright 2023 || CoDivers</small>
+    </footer>
 </html>
